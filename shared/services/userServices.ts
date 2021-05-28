@@ -16,7 +16,7 @@ export const getMenusByUserId  = async (id: string)=> {
   try {
    const data= await get<any>('/v1/user/menu/'+id)();
 
-    return data?.responses as Array<string>;
+    return data?.responses as Array<string> ||[];
   } catch (error) {
     console.log(error, error.response.data);
   }

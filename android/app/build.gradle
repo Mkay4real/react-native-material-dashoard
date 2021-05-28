@@ -129,7 +129,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.parallex_bank"
+        applicationId "com.prospa_test"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

@@ -1,4 +1,4 @@
-import { AccountDetails } from "../services/api";
+// import { AccountDetails } from "../services/api";
 
 export const accounts = [
   {
@@ -88,4 +88,4 @@ export const accountDetails= {
   "responseCode": "00",
   "responseMessage": "ok"
 
-} as AccountDetails
+} as {}

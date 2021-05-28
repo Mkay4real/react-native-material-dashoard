@@ -8,4 +8,9 @@ module.exports = {
       },
     },
   },
+  project: {
+    android: {},
+    ios: {},
+  },
+  assets: ['./assets/fonts/','./modules/prospa/assets/fonts/']
 };

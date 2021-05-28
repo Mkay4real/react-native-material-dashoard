@@ -8,6 +8,12 @@ export const AUTH_SERVICE_HOST = 'http://154.113.19.214/auth-service';
 export const APPROVAL_SERVICE_HOST = 'http://154.113.19.214/approval-service';
 export const USER_SERVICE_HOST = 'http://154.113.19.214/admin-service';
 
+// export const baseURL = 'https://bankplus.parallexbankng.com';
+// export const ONBOARDING_SERVICE_HOST = baseURL+'/onboarding-service';
+// export const AUTH_SERVICE_HOST = 'https://bankplus.parallexbankng.com/auth-service';
+// export const APPROVAL_SERVICE_HOST = baseURL+'/approval-service';
+// export const USER_SERVICE_HOST = baseURL+'/admin-service';
+
 type AlertType= {title?: string, message: string};
 
 export const notify = (content: AlertType) => Alert.alert(content.title || "Alert", content.message);
